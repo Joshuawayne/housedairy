@@ -1,0 +1,13 @@
+{
+    "name": "housedairy",
+    "version": "1.0.0",
+    "scripts": {
+        "start:frontend": "vite --config frontend/vite.config.js",
+        "start:backend": "cd backend && npm run start",
+        "install:all": "cd frontend && npm i && cd ../backend && npm i"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.0.0",
+        "vite": "^4.5.9"
+    }
+}
