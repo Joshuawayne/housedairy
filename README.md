@@ -3,30 +3,29 @@
  
 "# housedairy"  
 
-File Structure Overview 
+#File Structure Overview 
 Frontend: A React app built with Vite, handling UI, tables, and Supabase integration. 
 
-
-Backend: A Node.js server for custom logic (e.g., EDD calculations), complementing Supabase’s built-in features
+#Backend: A Node.js server for custom logic (e.g., EDD calculations), complementing Supabase’s built-in features
  
 
-tech stack:
+#tech stack:
 React
 vite
 node.js 
 superbase
  
-how to install the node for this:
+#how to install the node for this:
 node and how to install
 nvm install 18
 nvm use 18
 node -v   #check the version
 
   
-HOW TO RUN THE FRONTEND
+#HOW TO RUN THE FRONTEND
 housedairy\frontend
 npm install
 npm run dev
   
-housedairy\backend
+#housedairy\backend
 npm start
